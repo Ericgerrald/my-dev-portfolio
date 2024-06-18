@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .align-element {
+    @apply mx-auto max-w-7xl px-8;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .links-container {
+    height: auto !important;
+  }
+}
