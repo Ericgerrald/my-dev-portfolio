@@ -32,7 +32,7 @@ const About = () => {
           </div>
           <div className="text-center mt-6">
             <a
-              className="bg-slate-700 text-slate-200 p-2 pl-4 pr-4 text-lg font-bold rounded-3xl tracking-wider hover:bg-slate-300 hover:text-slate-900 cursor-pointer "
+              className="bg-slate-700 text-slate-200 p-2 pl-4 pr-4 text-lg font-bold rounded-3xl tracking-wider lg:hover:bg-slate-300 hover:text-slate-900 cursor-pointer "
               href={Cv}
               download={"Victor_Sunny_Cv.pdf"}
             >

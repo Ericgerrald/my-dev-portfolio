@@ -1,7 +1,7 @@
 import victor from "../assets/victor.jpg";
 const Hero = () => {
   return (
-    <div className="bg-slate-100 py-24 ">
+    <div id="home" className="bg-slate-100 py-24 ">
       <div className=" mx-auto px-8 flex flex-col-reverse items-center gap-9 lg:flex  lg:flex-row lg:items-center   lg:justify-between lg:mx-auto lg:max-w-6xl lg:gap-16 ">
         <article className="text-center">
           <h1 className="text-2xl text-slate-700 tracking-wider font-bold lg:text-3xl ">
@@ -16,7 +16,7 @@ const Hero = () => {
             enhance my skills.
           </p>
           <a
-            className="bg-slate-700 text-slate-200 p-2 pl-4 pr-4 text-lg font-bold rounded-3xl tracking-wider hover:bg-slate-300 hover:text-slate-900 cursor-pointer "
+            className="bg-slate-700 text-slate-200 p-2 pl-4 pr-4 text-lg font-bold rounded-3xl tracking-wider lg:first-letter:hover:bg-slate-300 hover:text-slate-900 cursor-pointer "
             href="mailto:nwaru_victor@yahoo.com"
           >
             Get In Touch
