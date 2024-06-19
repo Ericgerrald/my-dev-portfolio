@@ -7,7 +7,7 @@ const About = () => {
       <div className="mx-auto px-4 md:max-w-2xl lg:max-w-4xl xl:max-w-6xl">
         <article>
           <SectionTitle text={"About Me"} />
-          <p className="mt-10 text-base text-center tracking-wide md:text-start font-mono ">
+          <p className="mt-10 text-base text-center tracking-wide md:text-start font-proza ">
             Hi, I’m Victor Sunny, a junior web developer with a unique
             background in architecture. I hold a Bachelor’s and a Master’s
             degree from the Department of Architecture at Imo State University.
@@ -20,7 +20,7 @@ const About = () => {
             new technologies.
           </p>
           <div className="hidden mt-4 md:inline">
-            <p className="  mt-4 text-base text-center tracking-wide md:text-start font-mono">
+            <p className="  mt-4 text-base text-center tracking-wide md:text-start font-proza">
               My work philosophy centers around writing clean, maintainable code
               and ensuring user-friendly, accessible web designs. When I’m not
               coding, I enjoy exploring architectural marvels, sketching

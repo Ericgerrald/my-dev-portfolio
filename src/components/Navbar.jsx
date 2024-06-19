@@ -27,7 +27,9 @@ const Navbar = () => {
       <div className="md:max-w-2xl p-2 md:p-0 md:flex md:items-center md:justify-between lg:max-w-4xl xl:max-w-6xl md:my-0 md:mx-auto">
         <div className="flex items-center justify-between  p-4">
           <a href="#home">
-            <h2 className="text-xl font-bold text-slate-700 ">Victor Sunny</h2>
+            <h2 className="text-xl font-comrmorant font-bold text-slate-700 ">
+              Victor Sunny
+            </h2>
           </a>
           <button
             className="text-xl text-slate-500 bg-transparent border-transparent md:hidden"
@@ -50,7 +52,7 @@ const Navbar = () => {
                   <a
                     className="text-slate-700 capitalize tracking-wider block px-4 py-2 transition-all hover:bg-slate-700 hover:text-slate-100 hover:pl-6 md:px-0 md:hover:pl-0 md:hover:bg-transparent md:hover:text-slate-700  md:hover:border-slate-700 
                     md:hover:border-b-2
-                     md:hover:border-solid md:p-0 "
+                     md:hover:border-solid md:p-0 font-comrmorant "
                     href={href}
                   >
                     {text}
